@@ -1,4 +1,5 @@
 # ERA5 to CERRA via Diffusion Models
+Wind speed downscaling via Diffusion Models, from ERA5 to CERRA in the mediterranean region  
 
 ### Project Structure
 
@@ -29,11 +30,11 @@ This repository contains several key components that are integral to the project
 - `graph_visualization_maker.ipynb`: 
     - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments. It is a vital tool for visualizing and interpreting the performance and outcomes of different models and approaches used in the project.
 
-
+### Reprojection
 
 A guide documenting the reprojection process is available [here](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/how_to_reproject_CERRA.md).
 
-
-Wind speed downscaling via Diffusion Models, from ERA5 to CERRA in the mediterranean region  
+### Data availability
+The data relative to this project is available from the copernicus website, for [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview), [CERRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=form) and [IGRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-observations-igra-baseline-network?tab=overview).  
 
 ![result](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/bigResult.png)
