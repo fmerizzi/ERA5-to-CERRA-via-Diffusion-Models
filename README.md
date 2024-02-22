@@ -1,18 +1,18 @@
 # ERA5 to CERRA via Diffusion Models
-Wind speed downscaling via Diffusion Models, from ERA5 to CERRA in the mediterranean region  
+Wind speed downscaling via Diffusion Models, from ERA5 to CERRA, in the mediterranean region.
 
 ### Project Structure
 
 This repository contains several key components that are integral to the project. Below is an overview of each file and its purpose:
 
 - `setup.py`: 
-    - **Description**: This file serves as the backbone of the project setup, containing the main parameters and configurations required for initialization. It is essential for setting up the project environment and ensuring all components interact correctly.
+    - **Description**: This file serves as the backbone of the project setup, containing the main parameters and configurations required for initialization. It is essential for setting up the project environment and ensuring all components interact correctly. Refer to the max values contained here for denormalize the results outputted from the model. 
 
 - `utils.py`: 
     - **Description**: A collection of accessory functions that provide support across various modules of the project. Mostly metrics. 
 
 - `generators.py`: 
-    - **Description**: Contains the core code for generating sequences dynamically during both the training and evaluation phases. This module is crucial for on-the-fly data processing, ensuring efficient and adaptive handling of input data during model training and testing.
+    - **Description**: Contains the core code for generating sequences dynamically during both the training and evaluation phases. This module is crucial for on-the-fly data processing. It uses memmap to dinamycally load the data, while also performing normalization. 
 
 - `denoising_unet.py`: 
     - **Description**: Implements the denoising U-Net architecture using Keras. 
