@@ -23,8 +23,7 @@ This repository contains several key components that are integral to the project
     - **Description**: This notebook focuses on experiments involving the diffusion model for wind data downscaling.
 - `wind_unet_downscaling.ipynb`: 
     - **Description**: Contains experiments using the U-Net model for wind downscaling tasks. 
-    - **Warning**: Currently, the weights for the U-Net model are not available due to memory constraints. This notebook serves as a record of the experimental approach and findings but may require additional resources for full replication.
-
+    - **Warning**: Currently, the weights for the U-Net model are not available in this repository due to memory constraints. The weights are available in the following kaggle [dataset](https://www.kaggle.com/datasets/fastrmerizivic/u-net-weights-for-era5-to-cerra-wind-speed/)
 - `graph_visualization_maker.ipynb`: 
     - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments. 
 ### Reprojection
