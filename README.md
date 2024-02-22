@@ -34,6 +34,9 @@ A guide documenting the reprojection process is available [here](https://github.
 ### Data availability
 The generated data, missing from CERRA, relative to wind speed in the years 2021-2023 is available at [link](https://www.kaggle.com/datasets/fastrmerizivic/diffusion-generated-cerra-wind-speed-2021-2023), contained in a npz file which includes two arrays, one with the wind speed and the second with timestamps.
 
-The data relative to this project is available from the copernicus website, for [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview), [CERRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=form) and [IGRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-observations-igra-baseline-network?tab=overview).  
+The datasets relative to this project are available from the copernicus website, for [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview), [CERRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=form) and [IGRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-observations-igra-baseline-network?tab=overview).  
+
+### Enviroment 
+This project was built using tensorflow 2.15 and keras 2, using a RTX A4000 as a gpu. 
 
 ![result](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/bigResult.png)
