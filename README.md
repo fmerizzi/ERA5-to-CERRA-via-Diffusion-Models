@@ -1,6 +1,15 @@
 # ERA5 to CERRA via Diffusion Models
 Wind speed downscaling via Diffusion Models, from ERA5 to CERRA, in the mediterranean region.
 
+### Installation 
+This project has provided an environment setting file of conda, users can easily reproduce the environment by running following commands
+```
+git clone https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/
+cd ERA5-to-CERRA-via-Diffusion-Models
+conda env create -f environment.yml
+conda activate ERA5toCERRA
+```
+
 ### Project Structure
 
 This repository contains several key components that are integral to the project. Below is an overview of each file and its purpose:
@@ -26,15 +35,6 @@ This repository contains several key components that are integral to the project
     - **Warning**: Currently, the weights for the U-Net model are not available in this repository due to memory constraints. The weights are available in the following kaggle [dataset](https://www.kaggle.com/datasets/fastrmerizivic/u-net-weights-for-era5-to-cerra-wind-speed/)
 - `graph_visualization_maker.ipynb`: 
     - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments.
-
-### Installation 
-This project has provided an environment setting file of conda, users can easily reproduce the environment by running following commands
-```
-git clone https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/
-cd ERA5-to-CERRA-via-Diffusion-Models
-conda env create -f environment.yml
-conda activate ERA5toCERRA
-```
  
 ### Reprojection
 
