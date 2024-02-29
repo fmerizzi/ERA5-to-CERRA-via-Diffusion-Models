@@ -28,15 +28,13 @@ This repository contains several key components that are integral to the project
     - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments.
 
 ### Installation 
-This project has provided an environment setting file of conda, users can easily reproduce the environment by running following comma
+This project has provided an environment setting file of conda, users can easily reproduce the environment by running following commands
 ```
-Heui
-ai a ic
-a
-j 
+git clone https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/
+cd ERA5-to-CERRA-via-Diffusion-Models
+conda env create -f environment.yml
+conda activate ERA5toCERRA
 ```
-
-
  
 ### Reprojection
 
