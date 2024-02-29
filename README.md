@@ -35,6 +35,8 @@ The generated data, missing from CERRA, relative to wind speed in the years 2021
 
 The datasets relative to this project are available from the copernicus website, for [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview), [CERRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=form) and [IGRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-observations-igra-baseline-network?tab=overview). 
 
+A dataset containing the necessary data in npy format is freely available on [Kaggle](https://www.kaggle.com/datasets/b27f15b82c97022f246b8e525cf75e55b446fc4734af25e767524f9cb62b3f57)
+
 ### Enviroment 
 This project was built using tensorflow 2.15 and keras 2, using a RTX A4000 as a gpu. 
 
