@@ -41,4 +41,4 @@ The generated data, missing from CERRA, relative to wind speed in the years 2021
 ### Enviroment 
 This project was built using tensorflow 2.15 and keras 2, using a RTX A4000 as a gpu. 
 
-![result](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/bigResult.png)
+![result](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/sample.png)
