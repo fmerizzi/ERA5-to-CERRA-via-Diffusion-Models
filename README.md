@@ -25,7 +25,19 @@ This repository contains several key components that are integral to the project
     - **Description**: Contains experiments using the U-Net model for wind downscaling tasks. 
     - **Warning**: Currently, the weights for the U-Net model are not available in this repository due to memory constraints. The weights are available in the following kaggle [dataset](https://www.kaggle.com/datasets/fastrmerizivic/u-net-weights-for-era5-to-cerra-wind-speed/)
 - `graph_visualization_maker.ipynb`: 
-    - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments. 
+    - **Description**: A notebook dedicated to creating graphical representations of the results obtained from various experiments.
+
+### Installation 
+This project has provided an environment setting file of conda, users can easily reproduce the environment by running following comma
+```
+Heui
+ai a ic
+a
+j 
+```
+
+
+ 
 ### Reprojection
 
 A guide documenting the reprojection process is available [here](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/how_to_reproject_CERRA.md).
