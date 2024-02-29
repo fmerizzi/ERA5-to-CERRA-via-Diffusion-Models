@@ -31,11 +31,12 @@ This repository contains several key components that are integral to the project
 A guide documenting the reprojection process is available [here](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/how_to_reproject_CERRA.md).
 
 ### Data availability
-The generated data, missing from CERRA, relative to wind speed in the years 2021-2023 is available at [link](https://www.kaggle.com/datasets/fastrmerizivic/diffusion-generated-cerra-wind-speed-2021-2023). The data is contained in a npz file which include two arrays, the first with wind speed and the second with the relative timestamps. The wind data is given normalized between 0 and 1, for denormalization please refer to the values contained in setup.py. 
+
+A dataset containing the necessary data in npy format is freely available on [Kaggle](https://www.kaggle.com/datasets/b27f15b82c97022f246b8e525cf75e55b446fc4734af25e767524f9cb62b3f57)
 
 The datasets relative to this project are available from the copernicus website, for [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview), [CERRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-cerra-single-levels?tab=form) and [IGRA](https://cds.climate.copernicus.eu/cdsapp#!/dataset/insitu-observations-igra-baseline-network?tab=overview). 
 
-A dataset containing the necessary data in npy format is freely available on [Kaggle](https://www.kaggle.com/datasets/b27f15b82c97022f246b8e525cf75e55b446fc4734af25e767524f9cb62b3f57)
+The generated data, missing from CERRA, relative to wind speed in the years 2021-2023 is available at [link](https://www.kaggle.com/datasets/fastrmerizivic/diffusion-generated-cerra-wind-speed-2021-2023). The data is contained in a npz file which include two arrays, the first with wind speed and the second with the relative timestamps. The wind data is given normalized between 0 and 1, for denormalization please refer to the values contained in setup.py. 
 
 ### Enviroment 
 This project was built using tensorflow 2.15 and keras 2, using a RTX A4000 as a gpu. 
