@@ -2,7 +2,7 @@
 Wind speed downscaling via Diffusion Models, from ERA5 to CERRA, in the mediterranean region.
 
 ### Installation 
-This project has provided an environment setting file of conda, users can easily reproduce the environment by running following commands
+This project incudes an environment setting file of conda, users can easily reproduce the environment by running following commands
 ```
 git clone https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/
 cd ERA5-to-CERRA-via-Diffusion-Models
