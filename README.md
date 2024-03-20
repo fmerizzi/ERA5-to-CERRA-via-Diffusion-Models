@@ -2,7 +2,7 @@
 Wind speed downscaling via Diffusion Models, from ERA5 to CERRA, in the mediterranean region.
 
 <p align="left">
-  <img src="https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/wind_gif.gif" width="300" title="hover text">
+  <img src="https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/wind_gif.gif" width="200" title="hover text">
 </p>
 
 ### Installation 
