@@ -1,9 +1,22 @@
 # ERA5 to CERRA via Diffusion Models
-Wind speed downscaling via Diffusion Models, from ERA5 to CERRA, in the mediterranean region.
+<table>
+  <tr>
+    <td valign="top">
+      
+**Wind speed downscaling**
 
-<p align="left">
-  <img src="https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/wind_gif.gif" width="200" title="hover text">
-</p>
+- Generative diffusion models
+- From ERA5 to CERRA
+- In the Mediterranean region
+- With temporal resolution of 3h
+
+  </td>
+    <td>
+      <img src="https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/wind_gif.gif" alt="Your Image Description" width="200"/>
+    </td>
+  </tr>
+</table>
+
 
 ### Installation 
 This project incudes an environment setting file of conda, users can easily reproduce the environment by running following commands
