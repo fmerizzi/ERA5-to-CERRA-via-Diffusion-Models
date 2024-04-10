@@ -236,4 +236,3 @@ dependencies:
       - wrapt==1.14.1
       - xarray==2024.1.1
       - zipp==3.17.0
-prefix: /home/faster/anaconda3/envs/tf
