@@ -65,7 +65,17 @@ The raw data relative to this project is available from the copernicus website, 
 
 The generated data, missing from CERRA, relative to wind speed in the years 2021-2023 is available at [link](https://www.kaggle.com/datasets/fastrmerizivic/diffusion-generated-cerra-wind-speed-2021-2023). The data is contained in a npz file which include two arrays, the first with wind speed and the second with the relative timestamps. The wind data is given normalized between 0 and 1, for denormalization please refer to the values contained in setup.py. 
 
+### Ensemble 
+A gif representing the ensemble capabilities of the diffusion models, with 40 possible outcomes donwscaling a cyclone in the tyrrenian sea.
+
+  </td>
+    <td>
+      <img src="https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/ensemble.gif" alt="Your Image Description" width="350"/>
+    </td>
+  </tr>
+</table>
+
 ### Enviroment 
-This project was built using tensorflow 2.15 and keras 2, using a RTX A4000 as a gpu. 
+This project was conducted using a RTX A4000 as a gpu, a yAML file is included to ensure replicability.  
 
 ![result](https://github.com/fmerizzi/ERA5-to-CERRA-via-Diffusion-Models/blob/main/images/sample.png)
